@@ -5,6 +5,14 @@ Simple controllers that they add for pull secret/bmh-secrets for ZTP deployments
 Pull secret is copied from secret openshift-config/pull-secret.
 BMH secret is copied from secret openshift-config/bmh-secret.
 
+## Run me
+```
+# reference secret in place and then
+oc apply -k github.com/karampok/autosecret/config/default
+```
+
+## Note
+Draft implementation to be used for CI/CD, testing.
 
 ## License
 
